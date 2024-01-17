@@ -1,0 +1,28 @@
+
+git --version
+git config --global user.name "vibhu"
+git config --global user.email "vibhu2k19@gmail.com"
+git init
+git add .
+git status
+git commit -m "Commited files"
+git remote add origin https://github.com/example-url/git
+git branch -M main
+git push -u origin main
+
+
+
+
+
+
+
+
+Committed state : A file is in the committed state when all the changes made to the file have been saved in the local repo. Files in the committed stage are files ready to be pushed to the remote repo (on GitHub)
+
+Modified state : A file in the modified state has some changes made to it but it's not yet saved. This means that the state of the file has been altered from its previous state in the committed state.
+
+Staged stae : A file in the staged state means it is ready to be committed. In this state, all necessary changes have been made so the next step is to move the file to the commit state.
+
+1. When we first initialized our project, the file was not being tracked by Git. To do that, we use this command git add .
+2. Now our file is in the staged state. You will not get a response after this command, but to know what state your file is in, you can run the git status command.
+3. The first part of the command git commit tells Git that all the files staged are ready to be committed so it is time to take a snapshot.
