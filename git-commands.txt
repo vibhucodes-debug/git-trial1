@@ -7,6 +7,7 @@ git add .
 git status
 git commit -m "Commited files"
 git remote add origin https://github.com/example-url/git
+git remove -v
 git branch -M main
 git push -u origin main
 
