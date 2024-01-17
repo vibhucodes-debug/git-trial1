@@ -11,6 +11,14 @@ git remove -v
 git branch -M main
 git push -u origin main
 
+IF(error encounter while push){
+    // error name : failed to push some refs
+    git pull --rebase origin main
+    git push origin main
+}
+
+
+
 
 
 
